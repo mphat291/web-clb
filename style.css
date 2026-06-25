@@ -40,3 +40,40 @@
 .nav-links a:hover {
     color: #ffc107;
 }
+/* Style cho Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://picsum.photos/1200/600') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.btn-join {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ffc107;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.btn-join:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
